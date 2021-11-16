@@ -13,11 +13,11 @@ export class Car {
     this._name = name;
   }
 
-  public get speed(): number {
+  public get speed(): string {
     return this._speed;
   }
 
-  public set speed(speed: number) {
+  public set speed(speed: string) {
     this._speed = speed;
   }
 
